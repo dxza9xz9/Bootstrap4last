@@ -1,0 +1,45 @@
+.bg-cover {
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}
+
+.bg-content {
+  height: 420px;
+  width: 100%;
+  background-color: rgba(92, 181, 223, 0.1);
+}
+
+.bg-position {
+  position: relative;
+}
+
+.bg-color {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(67, 140, 203, 0.6);
+  transition: 1s;
+}
+
+.bg-move {
+  margin-top: -90px;
+  margin-bottom: 90px;
+}
+
+.bg-color:hover {
+  background-color: rgba(80, 228, 166, 0.6);
+  color: rgba(67, 140, 203, 1);
+}
+
+.bg-color:hover h4 {
+  color: rgba(67, 140, 203, 1);
+  transition: 1s;
+}
+.bg-com{
+  height: 460px;
+  background-size: cover;
+  background-position: center center;
+}

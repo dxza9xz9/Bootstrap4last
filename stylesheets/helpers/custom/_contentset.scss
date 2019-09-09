@@ -1,0 +1,96 @@
+.content-text {
+    letter-spacing: 5px;
+    line-height: 2;
+}
+
+.vetical-content {
+    writing-mode: vertical-rl;
+}
+
+.title {
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    letter-spacing: 5px;
+    line-height: 2;
+}
+
+.title-position {
+    position: absolute;
+    left: 20px;
+}
+
+.favorite {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.input-icon {
+    position: absolute;
+    color: #438ccb;
+    left: 20px;
+    top: calc(50% - 0.5em);
+    font-size: 24px;
+    z-index: 1;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.cart-img {
+    width: 110px;
+    height: 110px;
+}
+
+.input-hw {
+    width: 56px;
+    height: 56px;
+}
+
+.input-h {
+    height: 56px;
+}
+
+.table tbody tr td {
+    vertical-align: middle;
+}
+
+.number-bold {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.list-img {
+    width: 120px;
+    height: 80px;
+}
+
+.form-font-size {
+    font-size: 28px;
+}
+
+.invoice{
+    background-color: #fff;
+    color: #438ccb;
+    &.active{
+        background-color: #438ccb;
+        color: #fff;
+    }
+}
+
+.input-icon-card {
+    position: absolute;
+    background-color: #fff;
+    color: #438ccb;
+    right: 15px;
+    top: 51%;
+    z-index: 1;
+}
+.btn-last{
+    width: 300px;
+    margin-top: 51px;
+    padding: 15px;
+    color: #438ccb;
+    background-color: #02f78e;
+}
